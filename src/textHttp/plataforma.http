@@ -1,0 +1,8 @@
+@url = https://8080-elisascaran-gamessw2202-q8pby2kmxc6.ws-us116.gitpod.io
+
+POST {{url}}/plataformas
+Content-Type: application/json
+ 
+{
+    "nome": "mobiule"
+}
