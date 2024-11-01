@@ -26,4 +26,6 @@ public class Jogo {
         joinColumns = @JoinColumn(name = "id_jogo"),
         inverseJoinColumns = @JoinColumn(name = "id_plataforma"))
     private Set<Plataforma> plataformas;
+
+    public Jogo()
 }
